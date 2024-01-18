@@ -5,6 +5,7 @@
         "id": 1,
         "name": "Game of Thrones",
         "author": "George R.R Martin",
+        "year": "1991",
         "price": 26.50
     }
 ]
