@@ -1,0 +1,12 @@
+{
+"book": 
+[
+    {
+        "id": 1,
+        "name": "Game of Thrones",
+        "author": "George R.R Martin",
+        "price": 26.50
+    }
+]
+ }
+
