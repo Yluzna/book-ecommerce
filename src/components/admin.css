@@ -1,6 +1,7 @@
-body {
+body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 .title {
@@ -11,10 +12,40 @@ body {
     font-size: 20px;
     padding: 1rem;
     border-radius: 30px;
-    width: 600px;
-    height: 45px;
+    width: 80%;
 }
 
 .search-panel {
-    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    color: white;
+    height: 30px;
+}
+
+.Articles {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #164A41;
+}
+
+.book-juegotronos {
+    width: 150px;
+}
+
+.description-article {
+    margin: 10px;
+    padding: 10px;
+}
+
+.price {
+    text-align: center;
+    background-color: #D9D9D9;
+    color: #F97847;
+    border-radius: 10px;
 }
