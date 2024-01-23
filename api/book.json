@@ -4,27 +4,27 @@
         "name": "Choque de Reyes",
         "price": 4.99,
         "calification": "4.5",
-        "img":"./src/assets/libro1.svg"
+        "img":"../src/assets/img/libro1.svg"
     },
     {
         "id": 2,
         "name": "Tormenta de Espadas",
         "price": 1.99,
         "calification": "4.9",
-        "img":"./src/assets/tormenta.svg"
+        "img":"../src/assets/img/tormenta.svg"
     },
     {
         "id": 3,
         "name": "danza de dragones",
         "price": 8.99,
         "calification": "4.1",
-        "img":"./src/assets/danza.svg"
+        "img":"../src/assets/img/danza.svg"
     },
     {
         "id": 4,
         "name": "festin",
         "price": 4.29,
         "calification": "4.7",
-        "img":"./src/assets/festin.svg"
+        "img":"../src/assets/img/festin.svg"
     }
 ]
