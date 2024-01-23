@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <img src="../img/logo.png" alt="Admin" />
+            <img src="../src/assets/img/logo.png" alt="Logo" />
             <h1>Book-Swap</h1>
             <div className={`navbar-toggler`} onClick={toggleMenu}>
                 ☰
@@ -19,13 +19,14 @@ const Navbar = () => {
             <ul className={menuOpen ? 'active' : ''}>
                 <li>Home</li>
                 <li>Oferts</li>
-                <li>The  best sellers</li>
+                <li>The best sellers</li>
                 <li>Identify yourself</li>
             </ul>
             <div>
-                <img src="../img/Admi.jpg" alt="Admin" />
-                <span>Admin</span>
-                <img src="../img/OIP.png" alt="Cart" />
+                <img src="../src/assets/img/Admi.png" alt="Admin" />
+            </div>
+            <div>
+                <img src="../src/assets/img/OIP.jpg" alt="Cart" />
             </div>
         </nav>
     );
