@@ -2,33 +2,32 @@ import './App.css'
 import ProductContainer from './component/productContainer/productContainer'
 import Product from './component/product/product'
 
+import data from '../api/book.json'
+import Navbar from './component/Nav/navbar'
 function App() {
 
   return (
-    
+    <>
+    <Navbar />
     <ProductContainer>
 
-      <Product/>
-      <Product/>
-      <Product/>
-      <Product/>
-      <Product/>
-      <Product/>
-      <Product/>
-      <Product/>
-      <Product/>
-      
-    
-      
+      {data.map((product => <Product
+        key={product.id}
+        name={product.name}
+        calification={product.calification}
+        price={product.price}
+        img={product.img}
+
+
+      />
+      ))}
+
+
+
+
 
     </ProductContainer>
-    
-    
-    
-    
-      
-    
-
+</>
   )
 }
 
