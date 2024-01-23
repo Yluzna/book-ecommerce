@@ -1,49 +1,34 @@
-import './navbar.css'
+
+import React, { useState } from 'react';
+import './navbar.css';
 
 const Navbar = () => {
-  return (
+    const [menuOpen, setMenuOpen] = useState(false);
 
-    <nav>
-        <h1>Miweb</h1>
-        <div>
-            <ul>
-                <li>home</li>
-                <li>ofert</li>
-                <li>los mejores libros</li>
-                <li>admit</li>
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    return (
+        <nav className="navbar">
+            <img src="../img/logo.png" alt="Admin" />
+            <h1>Book-Swap</h1>
+            <div className={`navbar-toggler`} onClick={toggleMenu}>
+                ☰
+            </div>
+            <ul className={menuOpen ? 'active' : ''}>
+                <li>Home</li>
+                <li>Oferts</li>
+                <li>The  best sellers</li>
+                <li>Identify yourself</li>
             </ul>
-        </div>
-    </nav>
-    // <nav className="navbar">
-    //   <div className="container mx-auto flex justify-between items-center">
-    //     <Link to="/" className="navbar-logo">
-    //       Your Logo
-    //     </Link>
-    //     <ul>
-    //       <li>
-    //         <Link to="/" className="navbar-link">
-    //           Home
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <Link to="/products" className="navbar-link">
-    //           The best sellet
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <Link to="/Offerts" className="navbar-link">
-    //           Offerts
-    //         </Link>
-    //       </li>
-    //       <li>
-    //         <Link to="/Admin" className="navbar-link">
-    //          Admin
-    //         </Link>
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </nav>
-  );
+            <div>
+                <img src="../img/Admi.jpg" alt="Admin" />
+                <span>Admin</span>
+                <img src="../img/OIP.png" alt="Cart" />
+            </div>
+        </nav>
+    );
 };
 
 export default Navbar;
