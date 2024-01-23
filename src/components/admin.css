@@ -58,3 +58,15 @@ body {
     color: #F97847;
     border-radius: 10px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .title, .Articles {
+        width: 100%;
+    }
+    
+    .search-panel {
+        padding: 1rem;
+    }
+}
