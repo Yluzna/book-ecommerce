@@ -13,12 +13,13 @@ const admin = () => {
      </input> 
      </div>
      <div className='Articles'>
-      <img src="./img/juego-de-tronos.jpg" alt="img-libro" className='book-juegotronos'/>
+      <img src="./img/juego-de-tronos.jpg./" alt="img-libro" className='book-juegotronos'/>
       <div className='description-article'>
      <h2>Juego de Tronos</h2>
      <p>GEORGE R.R MARTIN</p>
      <p className='price'>$ 35.53</p>
      </div>
+     
      </div>
     </>
   )
