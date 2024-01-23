@@ -1,0 +1,18 @@
+
+.products__container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+@media (min-width: 760px) {
+    .products__container{
+        width: 760px;
+    }
+}
+@media (min-width: 1440px) {
+    .products__container{
+        width: 1440px;
+    }
+}
