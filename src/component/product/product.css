@@ -38,3 +38,8 @@
     justify-content: space-between;
 
 }
+
+.product-add {
+    margin: -9px 128px;
+    color: black;
+}
