@@ -22,7 +22,10 @@
 }
 
 .product-img {
-    margin: auto;
+    width: 70%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
 }
 
 .product-price {

@@ -1,16 +1,19 @@
 import ProductContainer from './component/productContainer/productContainer'
 import Product from './component/product/product'
 import data from '../api/book.json'
-import Carrusel from './component/Carrusel/carrusel'
+import Carousel from './component/Carousel/carousel'
 import Navbar from './component/Nav/navbar'
+// import SearchBar from './component/Search/Search'
 import './App.css'
+
 
 
 function App() {
   return (
     <>
     <Navbar/>
-    <Carrusel/>
+    <Carousel />
+    {/* <SearchBar /> */}
     <ProductContainer  >
 
       {data.map((product => <Product
