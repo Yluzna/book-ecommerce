@@ -1,7 +1,7 @@
 import ProductContainer from './component/productContainer/productContainer'
 import Product from './component/product/product'
 import data from '../api/book.json'
-import Carrusel from './component/carrusel/carrusel'
+import Carrusel from './component/Carrusel/carrusel'
 import Navbar from './component/Nav/navbar'
 import './App.css'
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Carrusel />
+    <Carrusel/>
     <ProductContainer  >
 
       {data.map((product => <Product
