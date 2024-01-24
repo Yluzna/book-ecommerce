@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import Admin from './components/admin'
-/* import axios from "axios";
+import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import  { fontAwesomeIcon } from '@fontAwesome/reac/-fontAwesome';
+import { IconName } from "react-icons/fa";
 import  { faEdit, faTrashAlt } from '@fortawesome/free-solid-vsg-icons';
 import  { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
- */
+
 function App() {
   const [count, setCount] = useState(0)
 
