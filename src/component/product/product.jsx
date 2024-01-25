@@ -1,17 +1,17 @@
 import './product.css'
 import AddToCart from '../AddToCart/AddToCart'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const Product = (props) => {
 
 
     return (
         
-        <div>
+        <div className='product'>
 
-            <Link to="/Product">
+            {/* <Link to="/Product">
                 Go to Product
-            </Link>
+            </Link> */}
         
         
 
@@ -23,7 +23,6 @@ const Product = (props) => {
             </div>
             <img className='product-img' src={props.img} alt="product" />
             <h2 className='product-title'>{props.name}</h2>
-            <h3 className='product-subtitle'>{props.subtitle}</h3>
             <h3 className='product-price'>{props.price}<AddToCart /></h3>
 
         </div>
