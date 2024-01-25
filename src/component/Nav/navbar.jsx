@@ -1,4 +1,4 @@
-
+import { Outlet, Link } from "react-router-dom";
 import React, { useState } from 'react';
 import './navbar.css';
 
@@ -17,10 +17,21 @@ const Navbar = () => {
                 ☰
             </div>
             <ul className={menuOpen ? 'active' : ''}>
-                <li>Home</li>
-                <li>Oferts</li>
-                <li>The best sellers</li>
-                <li>Identify yourself</li>
+            
+            <nav>
+                <ul>
+                <li>
+                        <Link to="/Home">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/dashboard">Dashboard</Link>
+                    </li>
+            
+                </ul>
+            </nav>
+            
+
+            <Outlet />
             </ul>
             <div>
                 <img src="../src/assets/img/Admi.png" alt="Admin" />

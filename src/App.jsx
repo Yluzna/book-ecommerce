@@ -1,34 +1,22 @@
-import ProductContainer from './component/productContainer/productContainer'
-import Product from './component/product/product'
-import data from '../api/book.json'
-import Carousel from './component/Carousel/carousel'
-import Navbar from './component/Nav/navbar'
-// import SearchBar from './component/Search/Search'
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './pages/Layout/Layout'
+import HomePage from './pages/HomePage/HomePage'
+import Dashboard from './pages/Dashboard/Dashboard'
+import About from './pages/About/About'
 
 
+function App(){
+    return (
+        <div>
+            <Routes>
+                <Route path='/' element={<Layout/>}/>
+                    <Route path='/Home' element={<HomePage/>}/>
+                    <Route path='Dashboard' element={<Dashboard/>}/>
+                    <Route path='*' element={<About/>}/>
 
-function App() {
-  return (
-    <>
-    <Navbar/>
-    <Carousel />
-    {/* <SearchBar /> */}
-    <ProductContainer  >
-
-      {data.map((product => <Product
-        key={product.id}
-        name={product.name}
-        calification={product.calification}
-        price={product.price}
-        img={product.img}
-
-
-      />
-      ))}
-      </ProductContainer>
-</>
-  )
+            </Routes>
+        </div>
+    )
 }
-
 export default App
