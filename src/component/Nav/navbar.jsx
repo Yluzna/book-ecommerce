@@ -11,8 +11,13 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <img src="../src/assets/img/logo.png" alt="Logo" />
+            <div className="logo-title">
+            <img src="../src/assets/img/logo.png" alt="Logo" 
+            
+            />
             <h1>Book-Swap</h1>
+            </div> 
+            
             <div className={`navbar-toggler`} onClick={toggleMenu}>
                 ☰
             </div>
@@ -33,9 +38,6 @@ const Navbar = () => {
 
             <Outlet />
             </ul>
-            <div>
-                <img src="../src/assets/img/Admi.png" alt="Admin" />
-            </div>
             <div>
                 <img src="../src/assets/img/OIP.jpg" alt="Cart" />
             </div>
