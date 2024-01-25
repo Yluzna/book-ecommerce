@@ -1,8 +1,11 @@
 
 import React, { useState } from 'react';
+import { useContext } from 'react';
+import { ShoppingCartContext } from '../../Context/context'
 import './navbar.css';
 
 const Navbar = () => {
+    const context = useContext(ShoppingCartContext)
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -26,7 +29,7 @@ const Navbar = () => {
                 <img src="../src/assets/img/Admi.png" alt="Admin" />
             </div>
             <div>
-                <img src="../src/assets/img/OIP.jpg" alt="Cart" />
+                🛒{context.count}
             </div>
         </nav>
     );

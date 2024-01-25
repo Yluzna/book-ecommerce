@@ -3,14 +3,18 @@ import Product from './component/product/product'
 import data from '../api/book.json'
 import Carrusel from './component/carrusel/carrusel'
 import Navbar from './component/Nav/navbar'
+import { ShoppingCartProvier } from './Context/context'
+import ProductDetail from './component/ProductDetail/producdetail'
 import './App.css'
 
 
 function App() {
   return (
     <>
+    <ShoppingCartProvier>
     <Navbar/>
     <Carrusel />
+    <ProductDetail />
     <ProductContainer  >
 
       {data.map((product => <Product
@@ -24,6 +28,7 @@ function App() {
       />
       ))}
       </ProductContainer>
+      </ShoppingCartProvier>
 </>
   )
 }
