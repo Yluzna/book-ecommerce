@@ -1,28 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Choque de reyes (Canción de hielo y fuego 2)",
+        "name": "Choque de reyes ",
+        "subtitle": "Canción de hielo y fuego 2",
         "price": 27.39,
         "calification": "4.5",
         "img":"../src/assets/img/libro1.svg"
     },
     {
         "id": 2,
-        "name": "Tormenta de espadas (Canción de hielo y fuego 3)",
+        "name": "Tormenta de espadas ",
+        "subtitle": "Canción de hielo y fuego 3",
         "price": 29.99,
         "calification": "4.9",
         "img":"../src/assets/img/tormenta.svg"
     },
     {
         "id": 3,
-        "name": "Danza de dragones (Canción de hielo y fuego 5)",
+        "name": "Danza de dragones ",
+        "subtitle": "Canción de hielo y fuego 5",
         "price": 28.99,
         "calification": "4.1",
         "img":"../src/assets/img/danza.svg"
     },
     {
         "id": 4,
-        "name": "Festín de cuervos (Canción de hielo y fuego 4)",
+        "name": "Festín de cuervos ",
+        "subtitle": "Canción de hielo y fuego 4",
         "price": 26.29,
         "calification": "4.7",
         "img":"../src/assets/img/festin.svg"
@@ -30,7 +34,8 @@
 
     {
         "id": 5,
-        "name": "Juego De Tronos (Canción De Hielo Y Fuego 1)",
+        "name": "Juego De Tronos",
+        "subtitle": "Canción De Hielo Y Fuego 1",
         "price": 27.29,
         "calification": "4.7",
         "img":"../src/assets/img/Juego-De-Tronos.webp"

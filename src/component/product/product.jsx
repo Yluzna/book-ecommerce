@@ -1,25 +1,33 @@
 import './product.css'
 import AddToCart from '../AddToCart/AddToCart'
-const Product = () => {
+import { Link } from 'react-router-dom'
+
+const Product = (props) => {
+
+
     return (
-        <div className="book-card">
-            <div className="calification">
-            <h3 className='product-calification'> 4.6</h3>
-            </div>
-            <div className="title-container">
+        
+        <div>
 
-                <div className="title">Choque de reyes</div>
-            </div>
-            <img className="book-cover" src="./src/assets/img/danza.svg" alt="Book Cover" />
-            <div className="price">$ 35.53
+            <Link to="/Product">
+                Go to Product
+            </Link>
+        
+        
 
+            <h3 className='product-calification'> <img src="./src/assets/img/starIcon.svg" alt="" />{props.calification}</h3>
+            <div
+                className='top-0 right-0 flex justify-center items-center bg-black w-6 h-6 rounded m-2 p-1 text-white cursor-pointer'
+                onClick={ () => context.setCount(context.count + 1 )}>
+                +
             </div>
-            <div className="add-to-cart">
-                <AddToCart />
-            </div>
+            <img className='product-img' src={props.img} alt="product" />
+            <h2 className='product-title'>{props.name}</h2>
+            <h3 className='product-subtitle'>{props.subtitle}</h3>
+            <h3 className='product-price'>{props.price}<AddToCart /></h3>
+
         </div>
     )
-
 }
 
 export default Product

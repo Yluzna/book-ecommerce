@@ -1,9 +1,28 @@
 
 .products__container{
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 510px;
     margin: 30px auto ;
     padding: 24px;
     min-height: 400px;
     border-radius: 16px;
+    gap: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    .products__container {
+        width: 48%; 
+    
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .products__container {
+        width: 80%; 
+        
+    }
 }
