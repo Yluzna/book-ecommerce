@@ -1,4 +1,6 @@
+
 [
+    
     {
         "id": 1,
         "name": "Choque de reyes ",
@@ -36,5 +38,5 @@
         "img":"../src/assets/img/Juego-De-Tronos.webp"
     }
 
-   
+
 ]

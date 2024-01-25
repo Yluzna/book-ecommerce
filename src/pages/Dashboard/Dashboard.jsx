@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../component/Nav/navbar.jsx'
-
+import Tabla from '../../component/Tabla/Tabla.jsx'
 
 const Dashboard = () => {
     return (
@@ -8,6 +8,8 @@ const Dashboard = () => {
 
         <>
         <Navbar />
+        
+        <Tabla />
         </>
 
 
