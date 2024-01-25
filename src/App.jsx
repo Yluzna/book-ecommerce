@@ -1,7 +1,7 @@
 import ProductContainer from './component/productContainer/productContainer'
 import Product from './component/product/product'
 import data from '../api/book.json'
-import Carrusel from './component/Carrusel/carrusel'
+import Carrusel from './component/Carousel/carousel'
 import Navbar from './component/Nav/navbar'
 import './App.css'
 

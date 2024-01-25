@@ -4,7 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 80px;
+    
 }
 @media (min-width: 760px) {
     .products__container{
