@@ -41,6 +41,9 @@
 .logo-title{
     display: flex;
 }
+.navbar-toggler{
+    cursor: pointer;
+}
 
 @media (min-width: 768px) {
     .navbar-toggler {
