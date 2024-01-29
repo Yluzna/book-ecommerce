@@ -18,8 +18,6 @@ const HomePage = (props) => {
                         calification={product.calification}
                         price={product.price}
                         img={product.img}
-
-
                     />
                     ))}
                 </ProductContainer>
