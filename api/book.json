@@ -1,13 +1,42 @@
-{
-"book": 
+
 [
+    
     {
         "id": 1,
-        "name": "Game of Thrones",
-        "author": "George R.R Martin",
-        "year": "1991",
-        "price": 26.50
-    }
-]
- }
+        "name": "Choque de reyes ",
+        "price": 27.39,
+        "calification": "4.5",
+        "img":"../src/assets/img/libro1.svg"
+    },
+    {
+        "id": 2,
+        "name": "Tormenta de espadas ",
+        "price": 29.99,
+        "calification": "4.9",
+        "img":"../src/assets/img/tormenta.svg"
+    },
+    {
+        "id": 3,
+        "name": "Danza de dragones ",
+        "price": 28.99,
+        "calification": "4.1",
+        "img":"../src/assets/img/danza.svg"
+    },
+    {
+        "id": 4,
+        "name": "Festín de cuervos ",
+        "price": 26.29,
+        "calification": "4.7",
+        "img":"../src/assets/img/festin.svg"
+    },
 
+    {
+        "id": 5,
+        "name": "Juego De Tronos ",
+        "price": 27.29,
+        "calification": "4.7",
+        "img":"../src/assets/img/Juego-De-Tronos.webp"
+    }
+
+
+]
